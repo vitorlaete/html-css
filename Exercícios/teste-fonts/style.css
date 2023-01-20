@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@font-face {
+    font-family: 'zombie';
+    src: url('fonts/Zombie\ City\ PERSONAL\ USE\ ONLY!.ttf') format('truetype');
+    font-weight: normal; /*espessura da letra*/
+    font-style: normal; /*estilo - negrito, itálico, sublinhado ...*/
+    /*
+        Tipos de formato:
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Appe Advanced Typography)
+        - svg
+    */
+
+}
+
+body{
+    background-color: lightblue;
+}
+
+h1{
+    font-family: 'zombie', sans-serif;
+    font-weight: normal;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+
+    background-color: burlywood;
+    border-radius: 5px;
+    width: auto;
+}
+
+p{
+    font-family: 'Luckiest Guy', 'cursive', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    font-style: normal;
+    color: grey;
+    text-align: justify;
+
+}

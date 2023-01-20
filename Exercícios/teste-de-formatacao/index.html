@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formatações especiais</title>
+            <link rel="stylesheet" href="style.css">
+            <style>
+                a{
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: red;
+                }
+                
+                a:visited{
+                    color: darkred;
+                }
+
+                a:hover{
+                    text-decoration: underline;
+                }
+
+                div > p{
+                    display: none;
+                }
+
+                div:hover > p{
+                    display: block;
+                    background-color: yellow;
+                }
+            </style>
+        </head>
+        <body>
+            <h1 id="titulo-principal">Aprenda Desenvolvimento Web</h1>
+            <h1>Aprenda HTML</h1>
+            <h2 class="topico">Semântica Web</h2>
+            <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, perferendis voluptate! Distinctio autem, inventore quam totam, voluptates dicta sequi minima nihil, quaerat dolor libero. Corrupti quod error eos facere deserunt.</p>
+            <h1>Aprenda CSS</h1>
+            <h2 class="topico">Estilos Web</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A nisi dolores nulla ex. Nihil ducimus assumenda natus illo numquam nisi repellendus possimus laboriosam officia, tempora porro animi. Hic, animi quidem?</p>
+
+            <h1>Personalizando um link</h1>
+            <p>
+                Para aprender HTML5 e CSS3, acesse o
+                <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">GitHub do Guanabara
+                </a>
+            </p>
+            <p>
+                Se quiser conhecer mais sobre os padrões, visite o site do
+                <a href="https://www.w3c.br" target="_blank" rel="external">Escritório do W3C no Brasil
+                </a>
+            </p>
+            <p>
+                Para acompanhar os cursos, acesse o
+                <a href="https://www.youtube.com/cursoemvideo" class="especial" target="_blank" rel="external">Canal do CursoemVideo</a>
+            </p>
+
+            <h1 style="font: bold 2em 'Times New Roman', Arial, sans-serif; color: black;">Conteúdo especial</h1>
+            <div>
+                Passe o mouse aqui
+                <p>SURPRESAAAA!</p>
+            </div>
+            <p>Veja o conteúdo aparecendo!</p>
+        </body>
+    </html>

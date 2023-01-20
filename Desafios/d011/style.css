@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.space{
+    width: 100%;
+
+    position: absolute;
+}
+
+.astro{
+    position: relative;
+    left: 30%;
+    top: 200px;
+}
+

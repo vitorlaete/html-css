@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+}
+
+#red{
+    width: 200px;
+    height: 200px;
+    background-color: #8B1817;
+    border: 1px solid black;
+}
+
+#green{
+    width: 200px;
+    height: 200px;
+    background-color: darkolivegreen;
+    border: 1px solid black;
+}
+
+#grey{
+    width: 200px;
+    height: 200px;
+    background-color: #d3d3d3;
+    border: 1px solid black;
+}
+
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border: 1px solid black;
+}
