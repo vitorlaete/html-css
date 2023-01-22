@@ -1,4 +1,4 @@
 # html-css
- curso de html e css
+ Curso de html5 e css3
 
 Aprendendo a desenvolver
